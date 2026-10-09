@@ -11,3 +11,12 @@ Console.WriteLine($"Infix = {infix3}, Result = {ExpressionEvaluator.Evalute(infi
 
 var infix4 = "144^(1/2)";
 Console.WriteLine($"Infix = {infix4}, Result = {ExpressionEvaluator.Evalute(infix4):N5}"); // 12
+
+Console.WriteLine(ExpressionEvaluator.Evalute("12*3"));
+Console.WriteLine(ExpressionEvaluator.Evalute("3.5+2.25"));
+Console.WriteLine(ExpressionEvaluator.Evalute("8-2*3+1"));
+Console.WriteLine(ExpressionEvaluator.Evalute("(3.1416+70)/(300^(1/3.2))"));    
+
+
+
+
