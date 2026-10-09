@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Backend\Backend.csproj" />
     <ProjectReference Include="..\Frontend.Console\Frontend.Console.csproj" />
   </ItemGroup>
 

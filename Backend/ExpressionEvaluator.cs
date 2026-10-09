@@ -9,7 +9,6 @@ public static class ExpressionEvaluator
 {
     public static double Evalute(string infix) => EvalutePostfix(ToPostfix(Tokenize(infix)));
 
-    // Splits "12+3.5" into ["12", "+", "3.5"]
     private static List<string> Tokenize(string infix)
     {
         var tokens = new List<string>();
